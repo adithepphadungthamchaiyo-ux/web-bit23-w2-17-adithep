@@ -21,7 +21,7 @@
         $rankine = ($c + 273.15) * 9 / 5;
 
         echo "<p>อุณหภูมิเซลเซียส : <span>" . $c . " °C</span></p>";
-        echo "<p>อุณหภูมิแรงคิน : <span>" . round($rankine, 2) . " °R</span></p>";
+        echo "<p>อุณหภูมิแรงคิน : <span>" . $rankine . " °R</span></p>";
     ?>
 
     <a href="index.php">← กลับหน้าแรก</a>
